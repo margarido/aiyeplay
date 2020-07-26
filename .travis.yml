@@ -1,8 +1,9 @@
 services:
   - postgresql
 
-addons:
-  - postgresql: '12.0'
+before_script:
+  - psql -c 'create database aiyeplay_test;' -U postgres
+  - cp config/database.yml.travis config/database.yml
 
 language: ruby
 rvm:
