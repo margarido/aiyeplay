@@ -154,7 +154,7 @@ GEM
     multipart-post (2.1.1)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
@@ -164,7 +164,7 @@ GEM
     path_expander (1.1.0)
     pg (1.2.3)
     psych (3.1.0)
-    puma (4.3.5)
+    puma (4.3.11)
       nio4r (~> 2.0)
     pusher-client (0.6.2)
       json
@@ -353,7 +353,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3, >= 6.0.3.2)
   rspec-rails
   rubocop
